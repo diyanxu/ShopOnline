@@ -4,7 +4,7 @@ function App() {
       <header>
         <a href="/">ShopOnline</a>
       </header>
-      <main>List Products Here!!!</main>
+      <main>List Products Here!!</main>
     </div>
   );
 }
