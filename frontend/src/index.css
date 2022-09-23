@@ -14,19 +14,26 @@ main {
   flex: 1;
 }
 
+.btn-primary {
+  background-color: #adde45;
+  color: black;
+}
+
 .products {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+.rating span {
+  color: #ffc000;
+}
 .product {
   border: 1px #505050 solid;
   margin: 1rem;
 }
 
 .product img {
-  padding: 1rem;
   width: 100%;
   max-width: 400px;
 }

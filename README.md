@@ -35,3 +35,7 @@
    2. update fetch data
    3. get state from usReducer
 10. Add bootstrap UI framework
+11. Create product and rating component
+    1. Create rating component
+    2. Create product component
+    3. Use Rating component in Product component
