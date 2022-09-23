@@ -32,7 +32,7 @@ const data = {
       price: 80,
       countInStock: 10,
       brand: 'Uniqlo',
-      rating: 4.2,
+      rating: 3.8,
       numReviews: 25,
       description: 'High quality sweater from Uniqlo X Kaws collab',
     },
