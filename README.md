@@ -34,3 +34,4 @@
    1. define reducer
    2. update fetch data
    3. get state from usReducer
+10. Add bootstrap UI framework
