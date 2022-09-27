@@ -41,7 +41,6 @@ function HomeScreen() {
   return (
     <div>
       <Helmet>
-        {' '}
         <title>Shop Online</title>
       </Helmet>
       <h1>Featured Products</h1>
