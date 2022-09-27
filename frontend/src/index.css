@@ -45,3 +45,7 @@ main {
 .img-large {
   max-width: 100%;
 }
+
+.img-thumbnail {
+  max-height: 80px;
+}
