@@ -7,6 +7,8 @@ import MessageBox from '../components/MessageBox';
 import { Link } from 'react-router-dom';
 import ListGroup from 'react-bootstrap/esm/ListGroup';
 import Button from 'react-bootstrap/esm/Button';
+import Card from 'react-bootstrap/Card';
+import ListGroupItem from 'react-bootstrap/esm/ListGroupItem';
 
 function CartScreen() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
@@ -67,7 +69,32 @@ function CartScreen() {
             </ListGroup>
           )}
         </Col>
-        <Col md={4}></Col>
+        <Col md={4}>
+          <Card>
+            <Card.Body>
+              <ListGroup variant="flush">
+                <ListGroup.Item>
+                  <h3>
+                    Subtotal ({cartItems.reduce((a, c) => a + c.quantity, 0)}{' '}
+                    item(s)) : $
+                    {cartItems.reduce((a, c) => a + c.price * c.quantity, 0)}
+                  </h3>
+                </ListGroup.Item>
+                <ListGroup.Item>
+                  <div className="d-grid">
+                    <Button
+                      type="button"
+                      variant="primary"
+                      disabled={cartItems.length === 0}
+                    >
+                      Proceed to Checkout
+                    </Button>
+                  </div>
+                </ListGroup.Item>
+              </ListGroup>
+            </Card.Body>
+          </Card>
+        </Col>
       </Row>
     </div>
   );
