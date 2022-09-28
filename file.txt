@@ -1,0 +1,1 @@
+mongodb+srv://shopOnline:shoponlinepass@cluster0.rdp3bpw.mongodb.net/?retryWrites=true&w=majority
