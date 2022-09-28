@@ -28,7 +28,7 @@ const reducer = (state, action) => {
 };
 
 function ProductScreen() {
-  //const navigate = useNavigate();
+  const navigate = useNavigate();
   const params = useParams();
   const { slug } = params;
 
@@ -67,8 +67,7 @@ function ProductScreen() {
       payload: { ...product, quantity },
     });
 
-    // not fan of this feature currently until quantity add is implemented
-    //navigate('/cart');
+    navigate('/cart');
   };
 
   return loading ? (
