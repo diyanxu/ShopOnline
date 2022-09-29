@@ -1,7 +1,7 @@
 const data = {
   products: [
     {
-      _id: '1',
+      //_id: '1',
       name: 'Peanut X Kaws Shirt',
       slug: 'peanut-x-kaws-shirt',
       category: 'Shirts',
@@ -14,7 +14,7 @@ const data = {
       description: 'High quality shirt from Uniqlo X Kaws collab',
     },
     {
-      _id: '2',
+      //_id: '2',
       name: 'Peanut X Kaws Plushie',
       slug: 'peanut-x-kaws-plush',
       category: 'Plushies',
@@ -27,7 +27,7 @@ const data = {
       description: 'High quality Uniqlo X Kaws plushie',
     },
     {
-      _id: '3',
+      //_id: '3',
       name: 'Peanut X Kaws Sweater',
       slug: 'peanut-x-kaws-sweater',
       category: 'Sweater',
@@ -40,7 +40,7 @@ const data = {
       description: 'High quality sweater from Uniqlo X Kaws collab',
     },
     {
-      _id: '4',
+      //_id: '4',
       name: 'Peanut X Kaws Tote Bag',
       slug: 'peanut-x-kaws-tote-bag',
       category: 'Bags',
