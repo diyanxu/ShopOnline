@@ -86,3 +86,7 @@
     1. create sign in API
     2. npm install jsonwebtoken
     3. define generateToken
+23. Complete sign in screen
+    1. handel sumbit action
+    2. save token in store and local storage
+    3. show user name in header
