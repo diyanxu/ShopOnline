@@ -17,7 +17,10 @@ import 'react-toastify/dist/ReactToastify.css';
 import ShippingAdressScreen from './screens/ShippingAdressScreen';
 import SignupScreen from './screens/SignUpScreen';
 import PaymentMethodScreen from './screens/PaymentMethodScreen';
+<<<<<<< HEAD
 import PlaceOrderScreen from './screens/PlaceOrderScreen';
+=======
+>>>>>>> f7a68f2bc41a928c50018083b1cebb9a0b9ea82d
 
 function App() {
   const { state, dispatch: ctxDispatch } = useContext(Store);
