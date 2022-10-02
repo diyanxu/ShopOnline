@@ -87,6 +87,10 @@
     2. npm install jsonwebtoken
     3. define generateToken
 23. Complete sign in screen
-    1. handel sumbit action
+    1. handle sumbit action
     2. save token in store and local storage
     3. show user name in header
+24. Create shipping screen
+    1. create form inputs
+    2. handle save shipping adress
+    3. add checkout wizard bar
