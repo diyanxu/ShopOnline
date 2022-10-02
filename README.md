@@ -98,3 +98,10 @@
     1. create input forms
     2. handle submit
     3. create backend api
+26. Create Payment Screen
+    1. create input forms
+    2. handle submit
+27. Create Placer Order Screen
+    1. show cart items, payment and address
+    2. handele place order action
+    3. create order create api
